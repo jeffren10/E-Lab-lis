@@ -1,0 +1,139 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 40px;
+  align-items: center;
+  box-shadow: 0 4px 13px rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgb(50, 51, 50);  
+  position: relative;
+}
+
+.text1 {
+  font-family: monospace;
+  margin-left: 5px;
+  color: rgb(50, 51, 50);
+  border-width: 20px;
+  border-color: brown;
+
+}
+
+.text2 {
+  margin-left: 10px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(50, 51, 50);
+}
+
+.side{
+  display: flex;
+  align-items: center;
+  
+}
+
+.p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 5px; 
+  color: rgb(50, 51, 50);
+  font-size: 16px;
+}
+
+.bars{
+ display: flex;
+}
+
+.side-bar {
+  margin-left: 40px;
+   margin-top: 40px;
+   box-shadow: inset -5px 0 0 0 rgb(50, 51, 50);
+   box-shadow: 10px 0 10px -5px rgb(50, 51, 50); 
+   position: relative;
+   
+
+}
+
+.side1 {
+  display: flex;
+  align-items: center;
+}
+
+.sid-p {
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;  
+  color: rgb(50, 51, 50);
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.main{
+  margin-left: 40px;
+  box-shadow: 1px 0 15px -5px rgb(50, 51, 50);
+  margin-top: 30px;
+}
+
+.main2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.p2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(50, 51, 50);
+  font-size: small;
+  margin-right: 480px;
+  margin-top: 10px;
+}
+
+.p3 {
+  color: rgb(111, 119, 111);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.p4 {
+  color:rgb(50, 51, 50) ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.footer {
+ 
+  }
+
+.p5{
+  margin-left: 280px;
+  margin-right: 450px;
+  box-shadow: 1px 0 15px -5px rgb(50, 51, 50);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(50, 51, 50) ;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  font-weight: bold;
+  
+
+}
+
+@media (max-width: 1200px) {
+  .container {
+      max-width: 100%; 
+  }
+}
+
+@media (max-height: 800px) {
+  .container {
+      max-height: 90vh; 
+  }
+}
