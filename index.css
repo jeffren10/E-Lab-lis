@@ -3,12 +3,14 @@ html, body {
   padding: 0;
   height: 100%;
   width: 100%;
+  border-width:20px ;
+  white-space: nowrap;
 }
 
 .nav {
   display: flex;
   margin-top: 100px;
-  margin-left: 40px;
+  margin-left: 300px;
   align-items: center;
   box-shadow: 0 4px 13px rgba(0, 0, 0, 0.25);
   border-bottom: 1px solid rgb(50, 51, 50);  
@@ -50,7 +52,7 @@ html, body {
 }
 
 .side-bar {
-  margin-left: 40px;
+  margin-left: 300px;
    margin-top: 40px;
    box-shadow: inset -5px 0 0 0 rgb(50, 51, 50);
    box-shadow: 10px 0 10px -5px rgb(50, 51, 50); 
@@ -82,7 +84,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
+  justify-content: center;
 }
 
 .p2{
@@ -90,7 +92,7 @@ html, body {
   font-weight: bold;
   color: rgb(50, 51, 50);
   font-size: small;
-  margin-right: 480px;
+  margin-right: 400px;
   margin-top: 10px;
 }
 
@@ -108,27 +110,34 @@ html, body {
 }
 
 .footer {
- 
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
   }
 
 .p5{
-  margin-left: 280px;
-  margin-right: 450px;
+ 
   box-shadow: 1px 0 15px -5px rgb(50, 51, 50);
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(50, 51, 50) ;
-  font-size: 14px;
+  font-size: 13px;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 260px;
   font-weight: bold;
   
-
+  
 }
 
 @media (max-width: 1200px) {
   .container {
       max-width: 100%; 
+  }
+  .p5{
+  
+    margin-left: 550px;
   }
 }
 
