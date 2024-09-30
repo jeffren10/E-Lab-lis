@@ -135,33 +135,16 @@
   
 
 /* Media query for mobile devices (480px and below) */
-@media (max-width: 480px) {
-  .nav img {
-    width: 30px;
-    height: 30px;
-  }
-
-  .side-bar {
-    flex-direction: column;
+@media screen and (min-width: 500px) {
+  .container{
+  
     align-items: center;
+    height: 100%;
   }
 
-  .side1 {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .main2 {
-    padding: 10px;
-    text-align: center;
-  }
-
-  .footer {
-    font-size: 10px;
-  }
 }
 
+  
    
     
     
