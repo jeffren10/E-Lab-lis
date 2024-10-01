@@ -4,18 +4,28 @@
     height: 100%;
     width: 100%;
     border-width:20px ;
-    white-space: nowrap;
+    
     }
-
+     .container {
+      width: 100%;
+      height: 80vh;
+      padding: 100px 0;
+      margin: 0 auto;
+      border: 4px solid blue;
+     }
 
    .nav {
     display: flex;
-    margin-top: 100px;
-    margin-left: 200px;
+    /* margin-left: 14rem; */
     align-items: center;
+    justify-content: space-between;
     box-shadow: 0 4px 13px rgba(0, 0, 0, 0.25);
     border-bottom: 1px solid rgb(50, 51, 50);  
     position: relative;
+    }
+    .nav-wrap {
+      display: flex;
+      align-items: center;
     }
 
    .text1 {
@@ -51,11 +61,12 @@
 
    .bars{
     display: flex;
+    width: 100%;
     }
 
    .side-bar {
-    margin-left: 200px;
-    margin-top: 40px;
+    /* margin-left: 14rem; */
+    margin-top: 30px;
     box-shadow: inset -5px 0 0 0 rgb(50, 51, 50);
     box-shadow: 10px 0 10px -5px rgb(50, 51, 50); 
     position: relative;
@@ -77,17 +88,20 @@
     }
 
    .main{
-    margin-left: 40px;
+    margin: 0 40px;
+    padding: 20px;
     box-shadow: 1px 0 15px -5px rgb(50, 51, 50);
     margin-top: 30px;
     justify-content: center;
-    }
-
-   .main2 {
+    width: 100%;
+  }
+  
+  .main2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    justify-content: center;
+    /* justify-content: center; */
+    width: 100%;
     }
 
    .p2{
@@ -124,27 +138,38 @@
     font-weight: bold;
     padding: 18px;
     margin-left: 40px 0;
-    display: flow-root;
-    justify-content: flex-end; 
     align-items: right;     
     height: 20px;          
     text-align: center; 
-    } 
+    }
 
 
-  
+    @media (max-width:650px) {
+      .container {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .main {
+      margin: 0;
+      padding: 5px;
+      width: unset;
+    }
+    .main2 {
+      flex-direction: column;
+    }
+    
+    .side-bar {
+      display: none;
+    }
+    .text1,.text2 {
+      display: none;
+    }
+    .bars {
+      display: block;
+    }
+     }
 
-/* Media query for mobile devices (480px and below) */
-@media screen and (min-width: 500px) {
-  .container{
-  
-    align-items: center;
-    height: 100%;
-  }
 
-}
-
-  
    
     
     
