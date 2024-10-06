@@ -155,10 +155,14 @@
     }
 
 
-    @media (max-width:750px) {
+    @media (max-width:600px) {
       .container {
         width: 100%;
         overflow-x: hidden;
+        margin: o auto;
+    }
+    .bars {
+      
     }
    .nav {
     display: flex;
@@ -184,13 +188,21 @@
       display: none;
     }
     .bars {
-      display: block;
+      display: flex;
     }
     .footer{
       margin-top:2px;
     }
+    .side1 {
+      
+    }
      }
 
+     @media (min-width:300px) {
+      .container{
+        width: 100%;
+      }
+     }
 
    
     
